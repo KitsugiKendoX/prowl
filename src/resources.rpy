@@ -11,6 +11,7 @@ init:
     # Audio #
     # SFX #
     # Music #
+    $ gates = '%sat_eternals_gate.ogg' % AUDIO  # Mick Gordon - At Eternal`s Gate
 
     # Images #
     # BG #
