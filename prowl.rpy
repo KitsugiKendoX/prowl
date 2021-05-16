@@ -30,3 +30,16 @@ init 69 python:
         'display_debug_info': False,
         'display_user_info': False
     }
+
+    # Paths #
+    ROOT = 'mods/prowl/'
+    RESOURCES = '%s/res/' % ROOT
+    SOURCES = '%ssrc/' % ROOT
+    IMAGES = '%simg/' % RESOURCES
+    AUDIO = '%saudio/' % RESOURCES
+    MENU = '%smenu/' % RESOURCES
+    BG = '%sbg/' % IMAGES
+    CG = '%scg/' % IMAGES
+    SPR = '%sspr/' % IMAGES
+    SFX = '%ssfx/' % AUDIO
+    MUS = '%smus/' % AUDIO
