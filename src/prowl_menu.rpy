@@ -8,14 +8,15 @@
 
 # Menu #
 init:
-    image m_bg_animated = Movie(play='res/menu/main_mov.ogv')
+    image m_bg_animated = Movie(play='mods/prowl/res/menu/main_mov.ogv')
 
 label prowl_menu:
     play music gates
     scene bg black with dissolve2
+    scene bg m_bg_animated with dissolve
     pause(1)
     scene m_bg_animated with dspr
-    show screen prowl_menu
+    show screen prowl_menu with dissolve
     call screen prowl_menu
 
 screen prowl_menu:

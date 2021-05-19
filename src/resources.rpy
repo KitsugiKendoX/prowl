@@ -9,7 +9,7 @@
 init:
     # Resources #
     # Paths #
-    $ ROOT = 'mods/prowl/'
+    $ ROOT = 'prowl/'
     $ RESOURCES = '%sres/' % ROOT
     $ SOURCES = '%ssrc/' % ROOT
     $ IMAGES = '%simg/' % RESOURCES
