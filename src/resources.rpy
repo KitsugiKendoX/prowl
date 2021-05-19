@@ -8,6 +8,19 @@
 
 init:
     # Resources #
+    # Paths #
+    $ ROOT = 'mods/prowl/'
+    $ RESOURCES = '%sres/' % ROOT
+    $ SOURCES = '%ssrc/' % ROOT
+    $ IMAGES = '%simg/' % RESOURCES
+    $ AUDIO = '%saudio/' % RESOURCES
+    $ MENU = '%smenu/' % RESOURCES
+    $ BG = '%sbg/' % IMAGES
+    $ CG = '%scg/' % IMAGES
+    $ SPR = '%sspr/' % IMAGES
+    $ SFX = '%ssfx/' % AUDIO
+    $ MUS = '%smus/' % AUDIO
+
     # Characters #
     $ alex = Character(u'Форчев', color='#e06c6e')
 
