@@ -1,7 +1,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                      ..Project Owl Reborn..                           #
 #                                                                       #
-# Authors: Kitsugi Kendo, dacenter                                      #
+# Authors: Kitsugi Kendo                                                #
 # Copyright (C) KSoftware, Soviet Games 2013-2021. All Rights Reserved. #
 # Code license: GNU GPL v3.0                                            #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -9,7 +9,7 @@
 init:
     # Resources #
     # Paths #
-    $ ROOT = 'prowl/'
+    $ ROOT = 'mods/prowl/'
     $ RESOURCES = '%sres/' % ROOT
     $ SOURCES = '%ssrc/' % ROOT
     $ IMAGES = '%simg/' % RESOURCES
@@ -33,10 +33,10 @@ init:
 
     # Images #
     # BG #
-    image bg int_room_of_alex_day = '%sint_room_of_alex_day.jpg' % BG
-    image bg int_room_of_alex_night = '%sint_room_of_alex_night.jpg' % BG
-    image bg int_kitchen_day = '%sint_kitchen_day.jpg' % BG
-    image bg int_kitchen_night = '%sint_kitchen_night.jpg' % BG
+    image int_room_of_alex_day = '%sint_room_of_alex_day.jpg' % BG
+    image int_room_of_alex_night = '%sint_room_of_alex_night.jpg' % BG
+    image int_kitchen_day = '%sint_kitchen_day.jpg' % BG
+    image int_kitchen_night = '%sint_kitchen_night.jpg' % BG
 
     # CG #
     # Sprites #

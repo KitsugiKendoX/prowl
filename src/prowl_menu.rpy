@@ -1,7 +1,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                      ..Project Owl Reborn..                           #
 #                                                                       #
-# Authors: Kitsugi Kendo, dacenter                                      #
+# Authors: Kitsugi Kendo                                                #
 # Copyright (C) KSoftware, Soviet Games 2013-2021. All Rights Reserved. #
 # Code license: GNU GPL v3.0                                            #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -13,9 +13,8 @@ init:
 label prowl_menu:
     play music gates
     scene bg black with dissolve2
-    scene bg m_bg_animated with dissolve
     pause(1)
-    scene m_bg_animated with dspr
+    scene m_bg_animated with Dissolve(6)
     show screen prowl_menu with dissolve
     call screen prowl_menu
 
@@ -27,6 +26,7 @@ screen prowl_menu:
         alpha False
         cache True
 
-        hotspot(62,393,649,476) action Jump(label='prowl_menu')  # Start
-        hotspot(63,482,649,558) action Jump(label='prowl_menu')  # Continue
-        hotspot(219,642,495,744) action Return()  # Exit
+        hotspot(0,0,433,279) action NullAction()
+        hotspot(65,390,589,88) action Jump(label='prowl_prologue')  # Start
+        hotspot(67,483,586,77) action Jump(label='prowl_menu')  # Continue
+        hotspot(220,627,277,122) action Return()  # Exit
