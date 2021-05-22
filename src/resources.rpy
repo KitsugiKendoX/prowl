@@ -35,7 +35,7 @@ init:
 
     # Music #
     $ gates = '%sat_eternals_gate.ogg' % MUS  # Mick Gordon  - At Eternal`s Gate
-    $ mondshtadt = '%smondshtadt.mp3' % MUS   # Yo`Ping Chen - Mondshtadt Starlit
+    $ mondshtadt = '%smondshtadt.mp3' % MUS   # Yu-Peng Chen, HOYO-Mix - Mondshtadt Starlit
     $ night = '%snight.ogg' % MUS
 
     # Ambience #
