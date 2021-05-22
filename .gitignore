@@ -1,3 +1,4 @@
 *.xcf
 *.sublime-project
 *.sublime-workspace
+*.rpyc
