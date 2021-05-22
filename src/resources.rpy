@@ -26,11 +26,20 @@ init:
 
     # Audio #
     # SFX #
+    $ audio.sfx_bed_stand_up = '%ssfx_bed_stand_up.wav' % SFX
+    $ audio.sfx_breathing_alex = '%ssfx_breathing_alex.wav' % SFX 
+    $ audio.sfx_footsteps_wood = '%ssfx_footsteps_wood.wav' % SFX 
+    $ audio.sfx_wsh = '%ssfx_wsh.wav' % SFX 
+
     # Music #
     $ gates = '%sat_eternals_gate.ogg' % MUS  # Mick Gordon  - At Eternal`s Gate
     $ mondshtadt = '%smondshtadt.mp3' % MUS   # Yo`Ping Chen - Mondshtadt Starlit
     $ night = '%snight.ogg' % MUS
 
+    # Ambience #
+    $ amb_room_silence = '%samb_room_silence.wav' % SFX     
+    $ amb_mondshtadt = '%samb_mondshtadt.ogg' % SFX 
+ 
     # Images #
     # BG #
     image int_room_of_alex_day = '%sint_room_of_alex_day.jpg' % BG

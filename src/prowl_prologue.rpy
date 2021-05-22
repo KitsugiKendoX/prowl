@@ -7,6 +7,7 @@ label prowl_prologue:
 
     scene bg black with Dissolve(5)
     play music night fadein 2
+    play ambience amb_room_silence fadein 2
     $ renpy.pause(1, hard=True)
 
     "...{w}{w}Ночь.{w} Прекрасная, тёмная ночь.{w} Может, кто-то сделал её такой?"
@@ -24,10 +25,14 @@ label prowl_prologue:
     "..."
     th "Не хочется вставать...{w} А надо."
 
+    play sound sfx_bed_stand_up
+
     "Я отложил телефон, встал, потянулся и пошёл на кухню."
 
     window hide 
-    scene int_kitchen_night with Dissolve(1.3)
+    play sound sfx_footsteps_wood
+    scene bg black with Dissolve(2)
+    scene int_kitchen_night with Dissolve(3.3)
     $ renpy.pause(delay=1, music=None, with_none=None, hard=True, checkpoint=None)
     window show 
 
@@ -37,12 +42,14 @@ label prowl_prologue:
     th "На жалость давить..."
 
     window hide 
+    play sound sfx_wsh
     $ renpy.pause(delay=.5, music=None, with_none=None, hard=True, checkpoint=None)
     window show 
 
     "Я включил чайник."
     th "Не хочется."
     "Я подошёл к окну начал смотреть на улицу."
+
     "Да.{w} Про огни я не соврал.{w} Прекрасное зрелище."
 
     th "Прекрасное лето. {b}Лучшее лето.{/b}"
