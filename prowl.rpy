@@ -13,7 +13,7 @@ init 69 python:
     def buildgen():
         import datetime
         now = datetime.datetime.now()
-        return ('build' + now.day + now.month + now.year)
+        return ('build' + str(now.day) + str(now.month) + str(now.year))
 
     # Mod constants #
     MOD_VERSION = 'v1.0.0'                                      # Displaying in debug mode

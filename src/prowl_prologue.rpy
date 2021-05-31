@@ -74,14 +74,14 @@ label prowl_prologue:
 
     window hide
     scene bg black with Dissolve(2)
-    scene bg int_room_of_alex_night with Dissolve(6)
+    scene int_room_of_alex_night with Dissolve(6)
     window show
 
     "Я зашёл обратно в комнату, взял телефон и пошёл обратно на кухню."
 
     window hide
     scene bg black with Dissolve(2)
-    scene bg int_kitchen_night with Dissolve(6)
+    scene int_kitchen_night with Dissolve(6)
     window show
 
     th "Тэкс...{w} Ну, глянем."
@@ -125,7 +125,7 @@ label prowl_prologue:
     window hide
     play sound sfx_footsteps_wood
     scene bg black with Dissolve(3)
-    scene int_room_of_alex_day with dissolve
+    scene int_room_of_alex_night with dissolve
     window show
 
     "Тяжёлый трудовой день окончен, я с тяжёлой башкой снимаю с себя домашнюю одежду, ложу на комод...{w} И с тяжеленной башкой заваливаюсь на кровать."
@@ -138,4 +138,4 @@ label prowl_prologue:
     stop ambience fadeout 2
     $ renpy.pause(1, hard=True)
 
-    return
+    jump prowl_prologue_transition

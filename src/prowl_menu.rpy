@@ -9,8 +9,10 @@
 # Menu #
 init:
     image m_bg_animated = Movie(play='mods/prowl/res/menu/main_mov.ogv')
+    image logo_animated = Movie(play='mods/prowl/res/menu/logo.ogv')
 
 label prowl_menu:
+    stop music fadeout 2
     play music gates
     scene bg black with dissolve2
     pause(1)
@@ -28,5 +30,5 @@ screen prowl_menu:
 
         hotspot(0,0,433,279) action NullAction()
         hotspot(65,390,589,88) action Jump(label='prowl_prologue')  # Start
-        hotspot(67,483,586,77) action Jump(label='prowl_menu')  # Continue
+        hotspot(67,483,586,77) action NullAction()  # Continue
         hotspot(220,627,277,122) action Return()  # Exit
