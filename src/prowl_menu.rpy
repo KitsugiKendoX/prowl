@@ -1,9 +1,9 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                      ..Project Owl Reborn..                           #
 #                                                                       #
-# Authors: Kitsugi Kendo                                                #
+# Authors: Kitsugi Kendo (k1tsukendo)                                   #
 # Copyright (C) KSoftware, Soviet Games 2013-2021. All Rights Reserved. #
-# Code license: GNU GPL v3.0                                            #
+# license: GNU GPL v3.0                                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Menu #

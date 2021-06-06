@@ -41,12 +41,12 @@ init:
 
     # Music #
     $ gates = '%sat_eternals_gate.ogg' % MUS  # Mick Gordon  - At Eternal`s Gate
-    $ mondshtadt = '%smondshtadt.mp3' % MUS   # Yu-Peng Chen, HOYO-Mix - Mondshtadt Starlit
+    $ mondstadt = '%smondstadt.mp3' % MUS   # Yu-Peng Chen, HOYO-Mix - Mondshtadt Starlit
     $ night = '%snight.ogg' % MUS
 
     # Ambience #
     $ amb_room_silence = '%samb_room_silence.wav' % SFX
-    $ amb_mondshtadt = '%samb_mondshtadt.ogg' % SFX
+    $ amb_mondstadt = '%samb_mondstadt.ogg' % SFX
 
     # Images #
     # BG #
@@ -54,6 +54,7 @@ init:
     image int_room_of_alex_night = '%sint_room_of_alex_night.jpg' % BG
     image int_kitchen_day = '%sint_kitchen_day.jpg' % BG
     image int_kitchen_night = '%sint_kitchen_night.jpg' % BG
+    image ext_mondstadt = '%sext_mondstadt.png' % BG
 
     # CG #
     # Sprites #
