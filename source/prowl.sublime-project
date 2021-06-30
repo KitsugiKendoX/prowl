@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/kitsugi/.local/share/Steam/steamapps/common/Everlasting Summer/game/mods/prowl",
+			"file_exclude_patterns": ["*.rpyc", "*.sublime-workspace", "*.sublime-project"],
+		}
+	],
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+}
